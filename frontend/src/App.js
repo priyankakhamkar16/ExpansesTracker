@@ -10,7 +10,7 @@ import ExpenseList from './components/ExpenseList';
 import './styles/App.css'; // Add new CSS for layout
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://expanses-tracker.vercel.app/graphql',
   cache: new InMemoryCache(),
 });
 
