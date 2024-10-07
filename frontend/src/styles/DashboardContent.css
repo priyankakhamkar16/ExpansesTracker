@@ -1,0 +1,68 @@
+.dashboard-content {
+  margin-left: 270px; /* Adjusted for sidebar */
+  padding: 40px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.income-info {
+  flex: 1;
+}
+
+.dashboard-content h3 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.dashboard-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.expenses-section {
+  margin-top: 40px;
+}
+
+.expenses-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.expenses-section p {
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+/* Chart container styles */
+.chart-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensures charts take full width of their container */
+}
+
+.chart-container h3 {
+  font-size: 20px;
+  color: #34495e; /* Updated for a consistent color scheme */
+  margin-bottom: 15px;
+}
+
+/* Responsive chart adjustments */
+@media (max-width: 768px) {
+  .chart-container {
+    width: 90%; /* Make charts responsive on smaller screens */
+  }
+
+  .dashboard-content {
+    margin-left: 20px; /* Less margin for smaller screens */
+  }
+}

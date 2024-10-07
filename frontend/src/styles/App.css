@@ -1,0 +1,12 @@
+/* src/styles/App.css */
+.dashboard-layout {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Prevent overlap with the sidebar */
+    background-color: #f4f6f9;
+  }
+  
